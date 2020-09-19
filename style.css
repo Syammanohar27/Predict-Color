@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    
+}
+
+p{
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0;
+    height: 70px;
+    width: 200px;
+
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1{
+    font-size: 58px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#time{
+    position: absolute;
+/*    bottom: 20px;*/
+    text-align: top;
+    width: 300px;
+    font: 3rem sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: .6rem 3rem;
+    background-color: rgb(35, 197, 35);
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button{
+    outline: none;
+    color: white;
+    padding: .6rem 3rem;
+    background-color: rgb(35, 197, 35);
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+.pop-up{
+    display:none;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 43%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 28%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    margin: auto;
+}
+
+.pop-up input{
+    display: block;
+}
+
+.pop-up p{
+    font-size: 16px;
+    height: 7px;
+    width: 400px;   
+}
+
+.pop-up div{
+    padding: 16px;
+}
+
+#countdown{
+    width:450px;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
